@@ -15,7 +15,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class LoginPageSteps {
-	WebDriver driver;
+	private WebDriver driver;
 
 	@Given("^I navigate to bank guru site$")
 	public void i_navigate_to_bank_gu_ru_site() {
